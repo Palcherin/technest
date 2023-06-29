@@ -1,0 +1,25 @@
+.about-container{
+    width: 100%;
+    height: fit-content;
+    background: #000;
+    bottom: 0;
+}
+.about-intro{
+    background: #0C9;
+    height: fit-content;
+    padding-top: 10%;
+    padding-left: 3%;
+}
+.about-content{
+    background: #000;
+    height: 50vh;
+    color: aliceblue;
+    margin: 0;
+    top: 0;
+}
+@media screen and (max-width:750px){
+   .about-intro{
+    display: block;
+    height: fit-content;
+   } 
+}
